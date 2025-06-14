@@ -12,8 +12,6 @@ public class Main {
             dataSource.setUsername(username);
             dataSource.setPassword(password);
             DataManager dataManager = new DataManager(dataSource);
-
-
             while (true) {
                 System.out.println("what would you like to do");
                 System.out.println("1) Display all actors");
